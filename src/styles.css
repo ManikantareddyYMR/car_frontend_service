@@ -1,0 +1,12 @@
+/* Small styles for the car UI */
+.car-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.car-card { background: #fff; border: 1px solid #e6e6e6; border-radius: 8px; padding: 12px; display:flex; flex-direction:column; justify-content:space-between }
+.car-card-body { margin-bottom: 8px }
+.car-card-actions { display:flex; gap:8px }
+.car-card-actions button { padding:6px 8px }
+.car-form { display:grid; gap:8px; max-width:480px }
+.car-form label { display:block; font-size:12px; color:#333 }
+.car-form input { padding:8px; border-radius:4px; border:1px solid #ccc }
+.form-actions { display:flex; gap:8px }
+.toolbar { display:flex; gap:8px; margin-bottom:12px }
+.error { background:#ffe6e6; color:#900; padding:8px; border-radius:4px; margin-bottom:12px }
